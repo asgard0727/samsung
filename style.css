@@ -1,28 +1,33 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
 }
-body{
+
+body {
     width: 100%;
     min-height: 500vh;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.navbar{
+
+.navbar {
     width: 90%;
     height: 80px;
     display: flex;
-    align-items: center;   
-    justify-content: space-between; 
+    align-items: center;
+    justify-content: space-between;
     padding: 0 20px;
 }
-.collection{
-    margin-right: 300px;
+
+.collection {
+    margin-right: 200px;
 }
-.collection , .collection__2{
+
+.collection,
+.collection__2 {
     list-style: none;
     display: flex;
     align-items: center;
@@ -30,69 +35,130 @@ body{
     font-weight: 700;
     gap: 20px;
 }
-.collection__2 i{
-    font-size: 20px;     
+
+.collection__2 i {
+    font-size: 20px;
 }
-.item{
+
+.item {
     padding: 5px;
     border-radius: 20px;
 }
-.item:hover{
+
+.item:hover {
     background: #000;
     color: #fff;
 
 }
-.banner{
+
+.banner {
     width: 90%;
     min-height: 630px;
+    position: relative;
 }
-.neoqled{
+
+.neoqled {
     background: url(./neo\ qled.webp) no-repeat center/cover;
 }
-.mobiles{
+
+.mobiles {
     width: 90%;
     min-height: 730px;
     background: url(./mobiles.for\ banner.webp) no-repeat center/cover;
 }
-section{
+
+.tv {
+    width: 90%;
+    min-height: 730px;
+    background: url(./tv.avif) no-repeat center/cover;
+}
+
+section {
     margin: 230px 0 0 740px;
     display: flex;
     flex-direction: column;
     gap: 40px;
 
 }
-.btn{
-    padding: 12px 0;
+
+.btn {
     width: 150px;
+    height: 40px;
     color: #fff;
     background: #000;
     border-radius: 20px;
     border: none;
 }
-.btn:hover{
+
+.btn__buy:hover {
     background: #999;
 }
-section h1{
+
+.btn:hover {
+    background: #999;
+}
+
+section h1 {
     font-size: 50px;
 }
-.collection__mobiles{
+
+.collection__mobiles {
     display: flex;
     align-items: center;
     justify-content: center;
     list-style: none;
     gap: 30px;
 }
-.mobiles__header{
+
+.tv__header,
+.mobiles__header {
     text-align: center;
     font-size: 45px;
     padding: 20px;
 }
-.collection__mobiles{
+
+.collection__mobiles {
     font-size: 18px;
     font-weight: 500;
 }
-.item__mobiles:hover{
+
+.item__mobiles:hover {
     border: #000 dotted;
-    border-radius: 20px;    
+    border-radius: 20px;
+    padding: 3px 10px;
 }
 
+.btn__buy {
+    width: 100px;
+    height: 40px;
+    color: #fff;
+    background: #000;
+    border-radius: 20px;
+    border: none;
+}
+
+footer {
+    text-align: center;
+    margin-top: 470px;
+}
+
+footer P {
+    display: inline;
+}
+
+.tv__neo {
+    font-size: 50px;
+}
+
+.btn__buy__tv {
+    width: 100px;
+    height: 40px;
+    color: #000;
+    background: #fff;
+    border-radius: 20px;
+    border: none;
+}
+
+.btn__buy__tv:hover {
+    background: #999;
+}
